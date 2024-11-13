@@ -26,6 +26,16 @@ export const transactionPaymentMethod = {
   PIX: "Pix",
 };
 
+export const transactionPaymentMethodIcon = {
+  [TransactionPaymentMethod.BANK_TRANSFER]: "bank-transfer.svg",
+  [TransactionPaymentMethod.BANK_SLIP]: "bank-split.svg",
+  [TransactionPaymentMethod.CASH]: "money.svg",
+  [TransactionPaymentMethod.CREDIT_CARD]: "credit-card.svg",
+  [TransactionPaymentMethod.DEBIT_CARD]: "debit-card.svg",
+  [TransactionPaymentMethod.OTHER]: "other.svg",
+  [TransactionPaymentMethod.PIX]: "pix.svg",
+};
+
 export const transactionTypeOptions = [
   {
     value: TransactionType.EXPENSE,
